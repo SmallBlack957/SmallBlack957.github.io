@@ -1,0 +1,194 @@
+.main {
+    margin-top: 10px;
+    width: 980px;
+    height: 455px;
+    margin-left: 220px;
+}
+.focus {
+    float: left;
+    width: 721px;
+    height: 455px;
+    background-color: #ccc;
+}
+.newflash {
+    float: right;
+    width: 250px;
+    height: 455px;
+}
+.news {
+    height: 165px;
+    border: 1px solid #e4e4e4;
+}
+.lifeservice {
+    height: 209px;
+    border: 1px solid #e4e4e4;
+    border-top: 0px;
+    overflow: hidden;
+}
+.lifeservice ul {
+    width: 252px;
+}
+.lifeservice ul li {
+    float: left;
+    width: 63px;
+    height: 71px;
+    border-right: 1px solid #e4e4e4;
+    border-bottom: 1px solid #e4e4e4;
+    text-align: center;
+}
+
+.lifeservice ul li i {
+    display: inline-block;
+    /* 加上宽度会导致图标效果不居中对齐 */
+    /* width: 24px; */
+    height: 28px;
+    color: #C22720;
+    font-size: 33px;
+    margin-top: 2px;
+    /* margin-left: 14px; */
+    
+}
+.lifeservice ul li p {
+    /* text-align: center; */
+    margin-top: 3px;
+}
+.bargain {
+    margin-top: 5px;
+}
+.new_hd {
+    height: 33px;
+    line-height: 33px;
+    border-bottom: 1px dotted #e4e4e4;
+    padding: 0 15px;
+}
+.new_hd h5 {
+    float: left;
+    font-size: 14px;
+}
+.new_hd .more {
+    float: right;
+}
+.new_hd i {
+    font-size: 12px;
+}
+.new_bd {
+    padding: 5px 15px 0;
+}
+.new_bd ul li {
+    height: 24px;
+    line-height: 24px;
+    /* 文字超出部分用...代替的步骤 */
+    /* 超出部分切掉不显示 */
+    overflow: hidden;
+    /* 必须一行显示，不允许换行 */
+    white-space: nowrap;
+    /* 文字超出部分...显示 */
+    text-overflow: ellipsis;
+}
+/* 推荐模块 */
+.recom {
+    height: 163px;
+    margin-top: 12px;
+    background-color: #ebebeb;
+}
+.recom_hd {
+    float: left;
+    height: 163px;
+    width: 205px;
+    background-color: #5c5251;
+}
+.recom_bd {
+    float: left;
+}
+.recom_bd ul li {
+    position: relative;
+    float: left;
+}
+/* -n代表往前面选，正的代表从这往后面选 */
+.recom_bd ul li:nth-child(-n+3):after {
+    position: absolute;
+    content: '';
+    right: 0;
+    top: 10px;
+    width: 1px;
+    height: 145px;
+    background-color: #ddd;
+}
+.recom_hd_image {
+    text-align: center;
+    color: #fff;
+    margin-top: 12px;
+}
+.recom_hd_image i {
+    font-size: 70px;
+}
+.recom_hd_image p {
+    font-size: 18px;
+    margin-top: -15px;
+}
+/* 家用电器模块 */
+.box_hd {
+    height: 30px;
+    border-bottom: 2px solid #c81623    ;
+}
+.box_hd h3 {
+    float: left;
+    font-size: 18px;
+    /* 400代表不加粗 */
+    font-weight: 400;
+    color: #c81623;
+}
+.tab_list {
+    float: right;
+}
+.tab_list ul li {
+    float: left;
+    line-height: 30px;
+}
+.tab_list ul li a {
+    margin: 0 5px;
+}
+.floor .w {
+    margin-top: 30px;
+}
+.box_bd {
+    height: 361px;
+    background-color: #fff;
+}
+.tab_list_item>ul>li {
+    float: left;
+    height: 361px;
+}
+/* col是列的意思 代表宽度为210的列 */
+.col_210 {
+    width: 210px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+.col_210 ul li {
+    float: left;
+    width: 85px;
+    height: 34px;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+    line-height: 34px;
+    margin-right: 10px;
+}
+.col_210 ul {
+    padding-left: 12px;
+}
+.col_329 {
+    width: 329px;
+}
+.col_221 {
+    width: 221px;
+    border-right: 1px solid #ccc;
+}
+.bb {
+    /* 一般情况下，a如果包含有宽度的盒子，a需要转为块级元素 */
+    display: block;
+    border-bottom: 1px solid #ccc;
+}
+.col_219 {
+    width: 219px;
+}
